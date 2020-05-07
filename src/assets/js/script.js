@@ -1,1 +1,3 @@
-alert("Hello World! [from script.js]")
+let planet_name = "WORLD!";
+
+alert("Hello " + planet_name + " [from script.js]")

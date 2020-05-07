@@ -22,7 +22,11 @@
     "gulp-uglify": "^3.0.1",
     "gulp-watch": "^5.0.1",
     "gulp-webserver": "^0.9.1",
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.11.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-plumber": "^1.2.1"
   },
   "dependencies": {
     "bootstrap": "^4.2.1",
