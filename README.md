@@ -24,5 +24,5 @@ gulp clean
 
 # generate build files
 gulp build
-cd tmp
+cd dist
 ```
