@@ -9,13 +9,12 @@ Use the package manager [npm](https://www.npmjs.com/get-npm) to install node-pac
 ```bash
 npm install --global gulp-cli
 git clone https://github.com/kaguru/gulp-template.git
+cd gulp-template
 npm install
-
 ```
 
 ## Usage
 ```bash
-cd gulp-template
 
 # development
 gulp
