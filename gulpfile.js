@@ -161,6 +161,14 @@ gulp.task('scss:dist', function () {
 gulp.task('js:dist', function () {
   return gulp.src(paths.srcJS)
     .pipe(concat('script.min.js'))
+    .pipe(plumber())
+    .pipe(babel({
+      presets: [
+        ['@babel/env', {
+          modules: false
+        }]
+      ]
+    }))
     .pipe(uglify())
     .pipe(rename({ dirname: 'js' }))
     .pipe(gulp.dest(paths.distAssets));
